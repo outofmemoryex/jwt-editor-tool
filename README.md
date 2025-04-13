@@ -51,12 +51,12 @@ To run this project locally, you have two options: running it with Docker or dir
 ## Using the Tool
 
 1. Decode a JWT:
-- Paste the JWT in the "Paste JWT here" textarea.
-- Click Decode to see the decoded Header and Payload.
+   - Paste the JWT in the "Paste JWT here" textarea.
+   - Click Decode to see the decoded Header and Payload.
 
 2. Edit the Header and Payload:
-- Modify the JSON in the Header and Payload text areas as needed.
+   - Modify the JSON in the Header and Payload text areas as needed.
 
 3. Re-encode the JWT:
-- Click Re-encode to generate the modified JWT.
-- The re-encoded JWT will appear in the "Modified JWT" textarea.
+   - Click Re-encode to generate the modified JWT.
+   - The re-encoded JWT will appear in the "Modified JWT" textarea.
