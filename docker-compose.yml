@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  jwt-editor:
+    build: .
+    ports:
+      - "3000:80"
+    container_name: jwt-editor-app
