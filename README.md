@@ -60,3 +60,28 @@ To run this project locally, you have two options: running it with Docker or dir
 3. Re-encode the JWT:
    - Click Re-encode to generate the modified JWT.
    - The re-encoded JWT will appear in the "Modified JWT" textarea.
+
+## Example Usage
+
+1. Paste a JWT like the following:
+
+   ```css
+   header.payload.signature
+   ```
+
+2. Click Decode to split the JWT into its parts.
+3. Edit the Header or Payload
+4. Click Re-encode to generate a new JWT.
+
+## Troubleshooting
+
+- Error Decoding JWT: Ensure that the JWT is properly formatted. The tool expects a base64-encoded string with three parts separated by periods (.).
+- Invalid JSON Format: Make sure that both the Header and Payload fields are valid JSON. You can use [jsonlint.com](https://jsonlint.com/) to validate your JSON before submitting.
+
+## Contributing
+
+Feel free to fork the repository and submit pull requests for improvements or bug fixes. Contributions are always welcome!
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
